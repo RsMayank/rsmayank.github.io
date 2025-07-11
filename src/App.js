@@ -29,13 +29,16 @@ const Portfolio = () => {
   };
 
   const skills = [
-    { name: 'Salesforce B2B Commerce', level: 95, icon: <Cloud className="w-6 h-6" /> },
-    { name: 'Salesforce CPQ', level: 92, icon: <Database className="w-6 h-6" /> },
-    { name: 'Apex Development', level: 90, icon: <Code className="w-6 h-6" /> },
-    { name: 'Lightning Web Components', level: 88, icon: <Zap className="w-6 h-6" /> },
-    { name: 'Salesforce Flows', level: 85, icon: <CheckCircle className="w-6 h-6" /> },
-    { name: 'REST APIs & Integration', level: 87, icon: <Database className="w-6 h-6" /> }
-  ];
+  { name: 'Salesforce B2B Commerce', level: 95, icon: <Cloud className="w-6 h-6" /> },
+  { name: 'Salesforce CPQ', level: 92, icon: <Database className="w-6 h-6" /> },
+  { name: 'Revenue Cloud (CPQ + Billing)', level: 90, icon: <Database className="w-6 h-6" /> },
+  { name: 'Salesforce OMS', level: 88, icon: <Cloud className="w-6 h-6" /> },
+  { name: 'Apex Development', level: 90, icon: <Code className="w-6 h-6" /> },
+  { name: 'Lightning Web Components', level: 88, icon: <Zap className="w-6 h-6" /> },
+  { name: 'Salesforce Flows', level: 85, icon: <CheckCircle className="w-6 h-6" /> },
+  { name: 'REST APIs & Integration', level: 87, icon: <Database className="w-6 h-6" /> }
+];
+
   // phone
   const [showPhone, setShowPhone] = useState(false);
   useEffect(() => {
