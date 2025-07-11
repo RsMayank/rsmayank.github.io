@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# 🧠 Mayank Srivastava – Salesforce Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A visually rich and interactive personal portfolio built using **React**, **Tailwind CSS**, and **Lucide Icons**, designed to showcase experience with **Salesforce B2B Commerce**, **CPQ**, and emerging **AI integrations**.
 
-## Available Scripts
+## 🔥 Features
 
-In the project directory, you can run:
+- Responsive single-page design with smooth scrolling
+- Professional sections: Hero, About, Skills, Experience, Projects, Contact
+- Interactive skill bars and transition effects on scroll
+- Click-to-reveal phone number with auto-hide on scroll (basic privacy feature)
+- Fully customizable with your own content and styles
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📁 Folder Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+src/
+├── components/
+│   └── Portfolio.jsx       # Main portfolio component
+├── App.jsx                 # App entry
+├── index.js                # ReactDOM rendering
+public/
+├── index.html
+```
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Technologies Used
 
-### `npm run build`
+- **React** – Frontend framework
+- **Tailwind CSS** – Utility-first CSS framework
+- **Lucide React Icons** – Icon library
+- **IntersectionObserver** – Scroll animations
+- **Smooth Scroll** – Navigation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1. Clone the repo
+```bash
+git clone https://github.com/yourusername/salesforce-portfolio.git
+cd salesforce-portfolio
+```
 
-### `npm run eject`
+### 2. Install dependencies
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3. Start the app
+```bash
+npm run dev
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Your app should be running at `http://localhost:5173` or similar.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## ✨ Key Projects
 
-## Learn More
+Some featured projects include:
+- **B2B Commerce Store with CPQ Integration**
+- **Loyalty Management System**
+- **AI-Powered Product Recommendations**
+- **Revenue Cloud Billing Automation**
+- **OMS Workflow Enhancements**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🔐 Privacy Features
 
-### Code Splitting
+- **Phone Number Security**: Phone number is hidden by default and only shown upon click, then auto-hides when user scrolls.
+- **No external form submissions or sensitive storage.**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📬 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+You can reach out via:
 
-### Making a Progressive Web App
+- **Email**: [rsmayank25@outlook.com](mailto:rsmayank25@outlook.com)
+- **LinkedIn**: [linkedin.com/in/rsmayank](https://linkedin.com/in/rsmayank)
+- **GitHub**: [github.com/rsmayank](https://github.com/rsmayank)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🧾 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open-source and free to use under the MIT License.
